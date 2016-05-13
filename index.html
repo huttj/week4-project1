@@ -3,8 +3,7 @@
 <head>
 <title>jQuerying</title>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script type="text/javascript" src="main.js"></script>
+
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -18,27 +17,32 @@
 
 <hr>
 
+<div class="removal">
+	
+	<h2>Questions 2-5 should style this list:</h2>
+	<ul class="list">
+	  <li>I am a list item</li>
+	  <p></p>
+	  <li>Remove Me!!</li>
+	  <li style="color: #8A2BE2;">Turn me #8A2BE2 !!</li>
+	  <li>Place another 'li' below me</li>
+	  <li>I have eaten my fellow items...</li>
+	</ul>
 
-<h2>Questions 2-5 should style this list:</h2>
-<ul>
-  <li>I am a list item</li>
-  <li>Remove Me!!</li>
-  <li>Turn me #8A2BE2 !!</li>
-  <li>Place another 'li' below me</li>
-  <li>I have eaten my fellow items...</li>
-</ul>
-
-<p>2. <button class="changeColor">Click Here</button> to change the color of the third "li" element.</p>
-<p>3. When the forth item is clicked, add another beneath it.</p>
-<p>4. <button id="removeLi">Click Here</button> to remove the second "li".</p>
-<p>5. When the last list item is clicked, change its font size to 40px and hide all other items.</p>
+	<p>2. <button class="changeColor">Click Here</button> to change the color of the third "li" element.</p>
+	<p>3. When the forth item is clicked, add another beneath it.</p>
+	<p>4. <button id="removeLi">Click Here</button> to remove the second "li".</p>
+	<p>5. When the last list item is clicked, change its font size to 40px and hide all other items.</p>
+</div>
 
 
 <hr>
 
 
 <p>6. When clicked make 1 more of me!</p>
-<img class="cute" src="http://hdwallnpics.com/wp-content/gallery/cute-golden-retriever-puppy-pictures/golden-retriever-puppies.jpg" alt="puppy" />
+<img class="cute" src="http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg" alt="puppy" />
+
+<div id="container"></div>
 
 
 <hr>
@@ -58,15 +62,17 @@ HINT: use .dblclick() instead of .click()</p>
 
 <hr>
 
+<div class="swatchin">
 
-<p>9. On click, change the page background to match these beautiful swatches.</p>
-<div class="swatches">
-  <div class="black swatch"></div>
-  <div class="wood swatch"></div>
-  <div class="chaos swatch"></div>
-  <div class="restore swatch"></div>
+	<p>9. On click, change the page background to match these beautiful swatches.</p>
+	<div class="list swatches">
+	  <div class="black swatch"></div>
+	  <div class="wood swatch"></div>
+	  <div class="chaos swatch"></div>
+	  <div class="restore swatch"></div>
+	</div>
+
 </div>
-
 
 <hr>
 
@@ -79,5 +85,8 @@ HINT: When we're manipulating an item through a specific order of events,<br>
 the best practice is to nest your $selector.action() statements.</p>
 <div id="hover"></div>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
